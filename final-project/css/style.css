@@ -1,0 +1,50 @@
+/*Portfolio CSS*/
+
+body {
+  font-weight:300;
+}
+
+.text-center {
+  text-align:center;
+}
+
+header {
+  overflow:hidden;
+  background-color: #333;
+}
+header h4 {
+  color:#289;
+}
+.navbar-toggle .icon-bar {
+  background-color:#fff;
+}
+
+#intro {
+  background-color:#A2A2A2;
+  color:#fff;
+  text-align: center;
+  min-height:500px;
+}
+
+#resume {
+  background-color:#D6D6D6;
+  min-height:500px;
+}
+
+.port-indiv {
+  min-height:170px;
+}
+
+.port-indiv .inside {
+  border:1px solid #a2a2a2;
+  min-height:150px;
+}
+
+#contact {
+  min-height:500px;
+}
+footer {
+  min-height:250px;
+  background-color:#000;
+  color:#fff;
+}
