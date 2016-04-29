@@ -1,0 +1,83 @@
+/*style for rock, paper scissor JavaScript game*/
+
+body {
+  font-family:'Roboto', sans-serif;
+  display:none;
+}
+
+.container {
+  width:450px;
+  margin:0 auto;
+  text-align: center;
+}
+
+.weapons {
+  text-align:center;
+  margin-bottom:35px;
+}
+ h2 {
+  font-weight:300;
+}
+.weapons img {
+  margin-right:20px;
+  height:50px;
+  width:auto;
+  transition: .5s;
+  border:3px solid transparent;
+}
+
+.weapons img:hover {
+  border:3px solid #2893d0;
+  cursor:pointer;
+}
+
+.uClicked {
+border:3px solid #2893d0 !important;
+}
+.comp, .player {
+  text-align: center;
+  height:170px;
+  width:46%;
+  float:left;
+  margin:0 1%;
+}
+.comp h2, .player h2 {
+  font-size:22px;
+}
+.comp {
+  background-color:#E3E4F1;
+}
+.player {
+  background-color:#E3F1EB;
+}
+.who-won {
+  height: 100px;
+  font-weight: 100;
+  color: #4CAF50;
+  font-size: 40px;
+  clear:both;
+  padding-top:30px;
+}
+
+.btn-playAgain {
+  padding:10px 20px;
+  text-transform:uppercase;
+  font-size:18px;
+  font-weight:100;
+  background-color:#B7B6B6;
+  color:#fff;
+  border:1px solid #999;
+  text-decoration:none;
+  transition: .5s;
+}
+.btn-playAgain:hover {
+  background-color:#2893d0;
+  border:1px solid #2379A9;
+}
+.icons8 {
+  color:#f3f3f3;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-top: 50px;
+  display: block;
+}

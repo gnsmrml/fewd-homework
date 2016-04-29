@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock, Paper and Scissors Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </head>
+  <body>
+    <div class="container">
+<div class="weapons">
+  <h1>Rock Paper Scissors Game</h1>
+  <h2>Choose your weapon</h2>
+    <!-- Rock icon -->
+    <img src="https://maxcdn.icons8.com/Color/PNG/96/Gaming/rock-96.png" title="Rock" width="96" id="rock" class="selection">
+
+    <!-- Sheet of Paper icon -->
+    <img src="https://maxcdn.icons8.com/Color/PNG/96/Printing/sheet_of_paper-96.png" title="Sheet of Paper" width="96" id="paper" class="selection">
+
+    <!-- Scissors icon -->
+    <img src="https://maxcdn.icons8.com/Color/PNG/96/Healthcare/scissors-96.png" title="Scissors" width="96" id="scissors" class="selection">
+</div>
+  <div class="player">
+    <h2>Your Choice</h2>
+    <div id="displayPlayerC"></div>
+  </div>
+  <div class="comp">
+    <h2>Computer Chooses</h2>
+    <p class="compChose" id="displayCompC"> </p>
+  </div>
+  <div class="who-won" id="whoWon">
+
+  </div>
+  <a href="javascript:history.go(0)" class="btn-playAgain">Clear / Play Again</a>
+</div>
+<!-- end container -->
+<a href="https://icons8.com" class="icons8">Icon pack by Icons8</a>
+  </body>
+</html>
