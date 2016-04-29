@@ -1,0 +1,148 @@
+/*Portfolio CSS*/
+
+body {
+  font-weight:300;
+  position:relative;
+}
+a {
+  transition:.5s;
+}
+.navbar-inverse {
+  background-color:transparent;
+  border-color:transparent;
+  margin-bottom:0px;
+}
+.navigation {
+  margin-top:-50px;
+}
+.text-center {
+  text-align:center;
+}
+
+header {
+  overflow:hidden;
+  background-color: #333;
+}
+h1 {
+  font-family:'Lobster', cursive;
+}
+header h4 {
+  color:#8abeb2;
+  font-size:34px;
+  margin-top:3px;
+  text-align:center;
+}
+.navbar-toggle .icon-bar {
+  background-color:#fff;
+}
+.offset-top {
+  padding-top:50px;
+}
+.navbar-fixed-top h4 {
+  font-family:'Lobster', cursive;
+}
+.navbar-nav > li > a {
+  color:#f9f9f9 !important;
+  text-transform: uppercase;
+  font-weight:100;
+  font-size:12px;
+  letter-spacing:1px;
+}
+.navbar-nav li a:hover, .navbar-nav li a:focus {
+  background-color:transparent;
+}
+.navbar-nav li.active a {
+  background-color:#8abeb2 !important;
+}
+#intro {
+  background-color:#A2A2A2;
+  color:#fff;
+  text-align: center;
+  min-height:500px;
+}
+
+#resume {
+  background-color:#D6D6D6;
+  min-height:500px;
+}
+
+.port-indiv {
+  min-height:170px;
+  margin:10px 0;
+}
+
+.port-indiv .inside {
+  border:1px solid #a2a2a2;
+  min-height:150px;
+  position:relative;
+  overflow:hidden;
+}
+.port-indiv .inside img {
+  max-width:100%;
+  height:auto;
+}
+.inside-content {
+  background-color: rgba(255,255,255,0.5);
+  padding: 10px;
+  position: absolute;
+  bottom: -155px;
+  transition: all 0.5s ease;
+}
+.inside-content h3 {
+  font-family:'Lobster', cursive;
+  text-align:left;
+  margin-top:0px;
+}
+.inside:hover .inside-content {
+  background-color: rgba(255,255,255,0.6);
+  bottom: 0;
+}
+
+#contact {
+  min-height:500px;
+}
+footer {
+  min-height:250px;
+  background-color:#000;
+  color:#fff;
+}
+.ptb-25 {
+  padding-top:25px;
+  padding-bottom:25px;
+}
+.pb50 {
+  padding-bottom:50px;
+}
+
+@media (min-width: 768px) {
+.navbar-nav {float:right;}
+header h4 {
+  text-align:left;
+}
+.navigation {
+  margin-top:0px;
+}
+
+.inside-content {
+  bottom: -155px;
+}
+
+}
+
+
+@media (min-width: 992px) {
+
+.inside-content {
+  bottom: -135px;
+}
+
+
+}
+
+@media (min-width: 1200px) {
+  .inside-content {
+    bottom: -110px;
+  }
+
+
+}
